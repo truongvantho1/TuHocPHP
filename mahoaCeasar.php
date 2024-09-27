@@ -1,6 +1,6 @@
 <?php
 $n = str_split('boyfriend');#nhập đoạn mã cần mã hóa tại đây
-$m = 3;#đây là khóa 
+$m = 8;#đây là khóa 
 
 $KetQua = array();
 for ($i = 0; $i < count($n); $i++) {

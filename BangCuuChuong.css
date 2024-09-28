@@ -1,0 +1,26 @@
+table {
+  border-collapse: collapse;
+  float: right;
+  margin-right: 40px;
+  margin-top: 80px;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 10px;
+    
+}
+
+th {
+  font-size: 8px;
+  margin-right: 10px;
+}
+
+td {
+  font-weight: bold;
+  font-size: 8px;
+}
+
+body {
+  background-image: url(anhnen.jpg);
+}

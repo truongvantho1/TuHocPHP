@@ -115,7 +115,7 @@
             </h1>
         </td>
     </tr>
-    <tr>
+    <tr>    
         <?php
     for ($j = 21; $j < 26; $j++){
         $KetQua = array(); 

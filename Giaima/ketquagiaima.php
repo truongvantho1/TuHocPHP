@@ -141,6 +141,12 @@
             </h1>
         </td>
     </tr>
+    <tr>
+    <form action="Giaima.php" method="post">
+        <input type="submit" value="Quay Lại Trang Trước">
+    </form>
+    </tr>
+    
 </table>
 
 

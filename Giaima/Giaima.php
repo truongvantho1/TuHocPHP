@@ -11,7 +11,7 @@
         <h1>GiaiMaCeasar</h1>
          <h2>
             nhapdoanmacangiai:<input type=" text" name="doanma" >
-            <input type="submit" name="Giaima" >
+            <input type="submit" value="Quay Lại Trang Trước" >
          </h2>
 
 

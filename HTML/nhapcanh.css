@@ -1,0 +1,25 @@
+body {
+    background-image: url('nenmaytinh.png'); /* Đường dẫn đến hình ảnh nền */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 2px solid #333; /* Đường viền cho form */
+    height: 300px; /* Chiều cao của form */
+    width: 680px; /* Chiều rộng của form */
+    padding: 20px; /* Khoảng cách bên trong form */
+    box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước tổng thể */
+    background-color: white; /* Màu nền của form */
+    border-radius: 10px; /* Bo tròn góc của form */
+}
+
+h1, h2, h3 {
+    text-align: center; /* Căn giữa cho tiêu đề */
+}

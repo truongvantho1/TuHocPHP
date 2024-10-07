@@ -9,7 +9,6 @@ for ($j = 0; $j < 26; $j++){
         $ViTri = array_search($Kytu, $ChuCai);
         $new_ViTri = ($ViTri + $j) % 26;
         $KetQua[] = $ChuCai[$new_ViTri];
-       
     }
     echo implode('', $n)." :Đây là mã cần giải";
     echo"<br>";

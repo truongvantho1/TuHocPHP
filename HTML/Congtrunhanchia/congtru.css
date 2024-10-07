@@ -1,0 +1,25 @@
+body {
+    background-image: url('anhphongxanh.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+        
+    border: 2px solid #333; 
+    height: 370px;
+    width: 614px; 
+    padding: 20px;
+    box-sizing: border-box; 
+    background-color: white;
+    border-radius: 5px; 
+}
+
+h1, h2, h3 {
+    text-align: center; 
+}

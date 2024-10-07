@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="ketquagiaima.css">
 </head>
 <body>
+  
     <?php
     $string = $_POST['doanma'];
     $n = str_split($string);
@@ -140,14 +141,11 @@
                ?>
             </h1>
         </td>
-    </tr>
-    <tr>
-    <form action="Giaima.php" method="post">
+    </tr>     
+</table>
+<form action="Giaima.php" method="post">
         <input type="submit" value="Quay Lại Trang Trước">
     </form>
-    </tr>
-    
-</table>
 
 
 </body>

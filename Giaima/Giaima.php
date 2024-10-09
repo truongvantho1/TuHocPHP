@@ -8,13 +8,12 @@
 </head>
 <body>
     <form action="ketquagiaima.php" method = "post">
-        <h1>GiaiMaCeasar</h1>
-         <h2>
-            nhapdoanmacangiai:<input type=" text" name="doanma" >
+        <h1>GiaiMaCeasar
+         <input type=" text" name="doanma" >
             <input type="submit" value="Tiến hành giải mã" >
-         </h2>
-
-
+            </h1>
+           
     </form>
+    
 </body>
 </html>

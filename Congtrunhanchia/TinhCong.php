@@ -20,7 +20,7 @@
 
   
   if ($a == 'cong') {
-    $result = $Sothunhat + $Sothuhai;
+    $result =  $Sothunhat + $Sothuhai;
   } elseif ($a == 'tru') {
     $result = $Sothunhat - $Sothuhai;
   } elseif ($a == 'nhan') {
@@ -46,7 +46,7 @@
             Sothuhai:<?php
             echo"$Sothuhai"
             ?>
-        <h2>Kết quả: 
+        <h2>Ket qua phep <?php echo"$a".":"; ?>
             <?php
             echo" $result"
             ?>

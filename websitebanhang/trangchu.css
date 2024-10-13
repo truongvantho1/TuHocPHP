@@ -1,0 +1,74 @@
+body{
+   width: 100%; 
+   margin: 0;
+}
+div{
+    width: 100%;
+    align-items: baseline;
+}
+.header {
+    background-color: #00a8f3;
+    color: white;
+    padding: 10px 0;
+    font-size: 24px;
+    position: relative;
+    display: block;
+    position: fixed;
+}
+.contact-info {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 1px;
+}
+.tenshop{
+    position: absolute;
+    left: 10px;
+    top: 1px;
+    font-size: 34px;
+    text-align: left;
+    margin-left: 40px;
+}
+.logotrangchu{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    font-size: 34px;
+    text-align: left;
+    margin-left: 1px;
+}
+.sidebar {
+    width: 200px;
+    background-color: #d3d3d3;
+    position: fixed;
+    height: 100%;
+    padding-top: 20px;
+    top: 53px;
+}
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+.sidebar a:hover {
+    background-color: #575757;
+    color: white;
+}
+.sidebar a i {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.content {
+    margin-left: 200px;
+    padding: 20px;
+    position: absolute;
+    top: 40px;
+    
+}
+

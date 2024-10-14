@@ -1,74 +1,96 @@
 body{
-   width: 100%; 
-   margin: 0;
-}
-div{
+    background-color: rgb(242, 214, 255);
     width: 100%;
-    align-items: baseline;
+    height: 200%;
+    position:fixed;
 }
 .header {
     background-color: #00a8f3;
     color: white;
     padding: 10px 0;
     font-size: 24px;
-    position: relative;
     display: block;
     position: fixed;
-}
-.contact-info {
-    position: absolute;
+    width: 100%;
+    left: 0; 
+    top: 0; 
+    z-index: 2000;
+  }
+  
+  .contact-info {
+    position: fixed;
     right: 10px;
     top: 14px;
     font-size: 14px;
     text-align: right;
     margin-top: 1px;
-}
-.tenshop{
-    position: absolute;
+    z-index: 2000;
+  }
+  
+  .tenshop {
+    position: fixed;
     left: 10px;
     top: 1px;
     font-size: 34px;
     text-align: left;
     margin-left: 40px;
-}
-.logotrangchu{
-    position: absolute;
+    z-index: 2000; 
+  }
+  
+  .logotrangchu {
+    position: fixed;
     left: 1px;
     top: 1px;
     font-size: 34px;
     text-align: left;
     margin-left: 1px;
-}
-.sidebar {
-    width: 200px;
+    z-index: 2000; 
+  }
+  
+  .sidebar {
+    width: 160px;
     background-color: #d3d3d3;
     position: fixed;
     height: 100%;
     padding-top: 20px;
     top: 53px;
-}
-.sidebar a {
+    z-index: 1500; 
+  }
+  
+  .sidebar a {
     display: block;
     color: black;
     padding: 16px;
     text-decoration: none;
     text-align: center;
     font-size: 18px;
-}
-.sidebar a:hover {
+  }
+  
+  .sidebar a:hover {
     background-color: #575757;
     color: white;
-}
-.sidebar a i {
+  }
+  
+  .sidebar a i {
     display: block;
     margin-bottom: 10px;
     font-size: 24px;
-}
-.content {
-    margin-left: 200px;
-    padding: 20px;
-    position: absolute;
-    top: 40px;
-    
-}
+  }
+  
+  .content {
+    top: 60px;
+    left: 200px;
+    position: relative;
+    z-index: 1000; 
+    width: auto;
 
+  }
+  .item2 img{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .price span{
+    padding-left: 50px;
+  }
+  

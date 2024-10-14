@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Trangchu</title>
-        <link rel="stylesheet" href="trangchu.css">
+        <link rel="stylesheet" href="trangchu1.css">
     </head>
     <body>
         <div class="header">
             <h1>
                 <div class="tenshop">
-                    Pineapple Store Shoe
+                    Pineapple Shoe Store 
                 </div>
                 <div class="logotrangchu">
                         <img src="shop.jpg" alt=""width="50px" height="50px">
@@ -26,7 +26,7 @@
             <a href="#">
                 <i class="fas fa-bars">
                 </i>
-                LIST
+                Home
             </a>
             <a href="#">
                 <i class="fas fa-shoe-prints">
@@ -51,35 +51,39 @@
         </div>
         <div class="content">
             <div class="row">
-                <div class="item">
-                    <img src="anhminhhoagiay.jfif" alt="" width="380px" height="180px">
-                    <img src="anhminhhoagiay1.jfif" alt=""width="380px"height="180px">
+                <div class="item1">
+                    <img src="anhminhhoagiay.jfif" alt="" width="360px" height="180px">
+                    <img src="anhminhhoagiay1.jfif" alt=""width="360px"height="180px">
                 </div>
             </div>
             <div class="row">
-                <div class="item">
+                <div class="item2">
+                    <div class="colum"></div>
                     <img src="giay1.jfif" alt="">   
                     <img src="giay2.jfif" alt="">
                     <img src="giay3.jfif" alt="">   
                 </div>
             </div>
-            <div class="row">
+            <div class="row">   
                 <div class="price">
-                Giá sản phẩm:
-                Giá sản phẩm:
-                Giá sản phẩm:
+                <span>Giá sản phẩm : 300.000đ</span>
+                <span style="margin-left: 20px;">Giá sản phẩm : 260.000đ</span>
+                <span style="margin-left: 20px;">Giá sản phẩm : 180.000đ</span>
+            </div>
+            </div>
+            <div class="row">
+                <div class="item2">
+                    <img src="giay4.jfif" alt="">   
+                    <img src="giay5.jfif" alt="">
+                    <img src="giay6.jfif" alt="">   
                 </div>
             </div>
             <div class="row">
-                <div class="item">
-                    <img src="" alt="">   
-                </div>
-                <div class="item">
-                    <img src="" alt="">
-                </div>
-                <div class="item">
-                    <img src="" alt="">   
-                </div>
+                <div class="price">
+                
+                <span>Giá sản phẩm : 200.000đ</span>
+                <span style="margin-left: 20px;"> Giá sản phẩm : 220.000đ</span>
+                <span style="margin-left: 20px;">Giá sản phẩm : 210.000đ</span>
             </div>
             </div>
         </div>
